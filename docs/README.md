@@ -12,7 +12,7 @@
 - [框选实体](./notes/Cesium相关/框选实体.md)
 - [计算两点连线与正北方向夹角](./notes/Cesium相关/计算两点连线与正北方向夹角.md)
 - [计算目标点位置](./notes/Cesium相关/计算目标点位置.md)
-- [计算欧拉角hpr](./notes/Cesium相关/计算欧拉角hpr.md)
+- [计算欧拉角 hpr](./notes/Cesium相关/计算欧拉角hpr.md)
 
 ### ⛏ 开发环境
 
