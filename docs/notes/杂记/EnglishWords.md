@@ -73,3 +73,7 @@ so far 目前为止
 visualize 可视化
 
 sensor 传感器
+
+mosquito 蚊子
+
+delimiter 分隔符

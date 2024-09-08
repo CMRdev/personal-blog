@@ -40,6 +40,8 @@
 
 ### ⏲ 前端基础
 
+- [css](./notes/前端基础/css.md)
+- [Js 基础知识](./notes/前端基础/Js基础知识.md)
 - [Js 模块加载](./notes/前端基础/Js模块加载.md)
 - [事件循环](./notes/前端基础/事件循环.md)
 
@@ -87,3 +89,4 @@
 
 - [英语单词](./notes/杂记/EnglishWords.md)
 - [杂记一](./notes/杂记/杂记一.md)
+- [高清地图](./notes/杂记/高清地图.md)
