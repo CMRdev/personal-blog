@@ -1,5 +1,7 @@
 # 单词
 
+## 1、第一部分
+
 anchor：锚，抛锚
 
 immediate ：adj ，立即的
@@ -43,3 +45,31 @@ genuine [ˈdʒenjuɪn] adj 真正的
 invasion n 武装入侵
 
 military [ˈmɪlətri] n 军方 adj 军事的
+
+## 2、第二部分
+
+tutorial 教程
+
+interactive 交互的
+
+terrain 地形
+
+Melbourne 墨尔本，Australia
+
+depot 储藏室
+
+high resolution 高分辨率
+
+drone capture 无人机捕获，drone 嗡嗡声
+
+massive 海量的
+
+tilt 使倾斜
+
+slide 幻灯片
+
+so far 目前为止
+
+visualize 可视化
+
+sensor 传感器
