@@ -37,6 +37,13 @@
   - [内置组件](./notes/Vue3.0/Part6.内置组件.md)
   - [vite](./notes/Vue3.0/Part7.vite.md)
 
+- Linux 命令
+
+  - [linux 常用命令](./notes/Linux命令/linux常用命令.md)
+  - [linux 常用命令（二）](./notes/Linux命令/linux常用命令（二）.md)
+  - [docker 常用命令](./notes/Linux命令/docker常用命令.md)
+  - [使用 Jenkins 进行 CI&CD](./notes/Linux命令/使用Jenkins进行CI&CD.md)
+
 - [ElasticSearch](/)
 
   - [ES 知识点](./notes/ElasticSearch/ES知识点.md)
