@@ -14,9 +14,9 @@
 
 - 请求动作
 
-  <img src="./image/restful-api.jpg" width="600" height="320">
+  <img src="/notes/其他/image/restful-api.jpg" width="600" height="320">
 
 - http 状态码
 
-  <img src="./image/code-1.png" width="600" height="440">
-  <img src="./image/code-2.png" width="600" height="300">
+  <img src="/notes/其他/image/code-1.png" width="600" height="440">
+  <img src="/notes/其他/image/code-2.png" width="600" height="300">
