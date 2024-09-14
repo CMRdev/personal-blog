@@ -16,10 +16,10 @@ function getHeadingPitchRoll(pointA, pointB) {
   // heading
   let heading = Math.atan2(direction.y, direction.x) - Cesium.Math.PI_OVER_TWO
   let h = Cesium.Math.TWO_PI - Cesium.Math.zeroToTwoPi(heading)
-  let transfrom = Cesium.Transforms.eastNorthUpToFixedFrame(pointA)
-  vector = Cesium.Cartesian3.subtract(pointB, pointA, new Cesium.Cartesian3())
-  let dir = Cesium.Matrix4.multiplyByPointAsVector(Cesium.Matrix4.inverse(transfrom, transfrom), vector, vector)
-  Cesium.Cartesian3.normalize(dir, dir)
+  // let transfrom = Cesium.Transforms.eastNorthUpToFixedFrame(pointA)
+  // vector = Cesium.Cartesian3.subtract(pointB, pointA, new Cesium.Cartesian3())
+  // let dir = Cesium.Matrix4.multiplyByPointAsVector(Cesium.Matrix4.inverse(transfrom, transfrom), vector, vector)
+  // Cesium.Cartesian3.normalize(dir, dir)
   // 因为direction已归一化，斜边长度等于1，所以余弦函数等于direction.z
   let p = Cesium.Math.PI_OVER_TWO - Cesium.Math.acosClamped(dir.z)
   let hpr = new Cesium.HeadingPitchRoll(h, p, 0)
