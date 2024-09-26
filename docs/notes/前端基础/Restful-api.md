@@ -16,11 +16,3 @@
 
   ![restful-api](./image/restful-api.jpg)
   <!-- <img src="./image/restful-api.jpg" width="600" height="320"> -->
-
-- http 状态码
-
-  ![code-1](./image/code-1.png)
-
-  ![code-2](./image/code-2.png)
-  <!-- <img src="/notes/其他/image/code-1.png" width="600" height="440">
-  <img src="/notes/其他/image/code-2.png" width="600" height="300"> -->
