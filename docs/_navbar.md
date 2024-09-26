@@ -26,7 +26,10 @@
   - [Js 基础知识（二）](./notes/前端基础/Js基础知识2.md)
   - [Js 模块加载](./notes/前端基础/Js模块加载.md)
   - [事件循环](./notes/前端基础/事件循环.md)
-  - [浏览器从发出请求到页面渲染完毕全过程](./notes/前端基础/浏览器从发出请求到页面渲染完毕全过程.md)
+  - [HTTP 协议各版本区别](./notes/前端基础/HTTP协议各版本区别.md)
+  - [浏览器请求全过程](./notes/前端基础/浏览器从发出请求到页面渲染完毕全过程.md)
+  - [Restful-api](./notes/前端基础/Restful-api.md)
+  - [TCP-IP 协议](./notes/前端基础/TCP-IP协议.md)
 
 - [vue3.0](/)
 
@@ -38,7 +41,7 @@
   - [内置组件](./notes/Vue3.0/Part6.内置组件.md)
   - [vite](./notes/Vue3.0/Part7.vite.md)
 
-- Linux 命令
+- [Linux 命令](/)
 
   - [linux 常用命令](./notes/Linux命令/linux常用命令.md)
   - [linux 常用命令（二）](./notes/Linux命令/linux常用命令（二）.md)
@@ -51,10 +54,8 @@
 
 - [其他](/)
 
-  - [Restful-api](./notes/其他/Restful-api.md)
   - [SCP 文件传输](./notes/其他/SCP文件传输.md)
-  - [TCP-IP协议](./notes/其他/TCP-IP协议.md)
+  - [xshell 中文件传输](./notes/其他/xshell中文件传输.md)
   - [使用 webrtc-streamer 解析 rtsp 视频流](./notes/其他/使用webrtc-streamer解析rtsp视频流.md)
   - [Java 录制 rtsp 视频流](./notes/其他/Java录制rtsp视频流.md)
-  - [xshell 中文件传输](./notes/其他/xshell中文件传输.md)
   <!-- - [TCP](./notes/其他/TCP.xmind) -->
