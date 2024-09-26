@@ -51,3 +51,9 @@ box-sizing: content-box;
 /* 外边框不会变化 */
 box-sizing: border-box;
 ```
+
+## 5、em 和 rem 的区别
+
+- rem（font size of the root element）是指相对于`根元素`的字体大小的单位
+
+- em（font size of the element）是指相对于`父元素`的字体大小的单位，如当前对行内文本的字体尺寸未被人为设置，则相对于`浏览器的默认字体尺寸16px`

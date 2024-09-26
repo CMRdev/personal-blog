@@ -48,6 +48,7 @@
 - [事件循环](./notes/前端基础/事件循环.md)
 - [HTTP 协议各版本区别](./notes/前端基础/HTTP协议各版本区别.md)
 - [浏览器请求全过程](./notes/前端基础/浏览器从发出请求到页面渲染完毕全过程.md)
+- [浏览器页面渲染流程](./notes/前端基础/浏览器页面渲染流程.md)
 - [Restful-api](./notes/前端基础/Restful-api.md)
 - [TCP-IP 协议](./notes/前端基础/TCP-IP协议.md)
 
