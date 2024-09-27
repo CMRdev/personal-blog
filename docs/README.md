@@ -1,3 +1,16 @@
+### ⏲ 前端基础
+
+- [css](./notes/前端基础/css.md)
+- [Js 基础知识（一）](./notes/前端基础/Js基础知识1.md)
+- [Js 基础知识（二）](./notes/前端基础/Js基础知识2.md)
+- [HTTP 协议各版本区别](./notes/前端基础/HTTP协议各版本区别.md)
+- [Restful-api](./notes/前端基础/Restful-api.md)
+- [浏览器请求全过程](./notes/前端基础/浏览器从发出请求到页面渲染完毕全过程.md)
+- [浏览器页面渲染流程](./notes/前端基础/浏览器页面渲染流程.md)
+- [TCP-IP 协议](./notes/前端基础/TCP-IP协议.md)
+- [Js 模块加载](./notes/前端基础/Js模块加载.md)
+- [Js Event-Loop](./notes/前端基础/事件循环.md)
+
 ### 🌏 Cesium 相关
 
 - [Index](./notes/Cesium相关/Index.md)
@@ -38,19 +51,6 @@
 - [常用命令](./notes/Windows命令/常用命令.md)
 - [查看 wifi 密码](./notes/Windows命令/查看wifi密码.md)
 - [启动 redis](./notes/Windows命令/启动redis.md)
-
-### ⏲ 前端基础
-
-- [css](./notes/前端基础/css.md)
-- [Js 基础知识（一）](./notes/前端基础/Js基础知识1.md)
-- [Js 基础知识（二）](./notes/前端基础/Js基础知识2.md)
-- [Js 模块加载](./notes/前端基础/Js模块加载.md)
-- [事件循环](./notes/前端基础/事件循环.md)
-- [HTTP 协议各版本区别](./notes/前端基础/HTTP协议各版本区别.md)
-- [浏览器请求全过程](./notes/前端基础/浏览器从发出请求到页面渲染完毕全过程.md)
-- [浏览器页面渲染流程](./notes/前端基础/浏览器页面渲染流程.md)
-- [Restful-api](./notes/前端基础/Restful-api.md)
-- [TCP-IP 协议](./notes/前端基础/TCP-IP协议.md)
 
 ### 🍟 Python
 
