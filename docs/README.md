@@ -32,6 +32,9 @@
 
 - [优雅地切换 node 版本](./notes/开发环境/优雅地切换node版本.md)
 - [使用 prettier 统一代码风格](./notes/开发环境/使用prettier统一代码风格.md)
+- [LF 和 CRLF](./notes/开发环境/LF&CRLF.md)
+- [MarkDown 语法](./notes/开发环境/Markdown语法速查.md)
+- [VScode 快捷键](./notes/开发环境/VS_Code快捷键.md)
 
 ### 🍂 Git 命令
 
@@ -46,6 +49,7 @@
 - [linux 常用命令（二）](./notes/Linux命令/linux常用命令（二）.md)
 - [docker 常用命令](./notes/Linux命令/docker常用命令.md)
 - [使用 Jenkins 进行 CI&CD](./notes/Linux命令/使用Jenkins进行CI&CD.md)
+- [Linux 目录解释](./notes/Linux命令/Linux目录解释.md)
 
 ### 🧫 Windows 命令
 
@@ -77,6 +81,15 @@
 
 ### 🧵 ElasticSearch
 
+- [安装 ES](./notes/ElasticSearch/安装ES.md)
+- [查询](./notes/ElasticSearch/查询.md)
+- [查询和过滤器 DSL](./notes/ElasticSearch/查询和过滤器DSL.md)
+- [倒排索引](./notes/ElasticSearch/倒排索引.md)
+- [分析数据](./notes/ElasticSearch/分析数据.md)
+- [更新](./notes/ElasticSearch/更新.md)
+- [节点和分片](./notes/ElasticSearch/节点和分片.md)
+- [删除](./notes/ElasticSearch/删除.md)
+- [使用相关性进行搜索](./notes/ElasticSearch/使用相关性进行搜索.md)
 - [ES 知识点](./notes/ElasticSearch/ES知识点.md)
 
 ### 📊 项目部署
