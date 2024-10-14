@@ -42,6 +42,7 @@
 - [将本地项目上传到 gitlab](./notes/Git命令/将本地项目上传到gitlab.md)
 - [更改 git 的 ssh](./notes/Git命令/更改git的ssh.md)
 - [更改推送方式](./notes/Git命令/更改推送方式.md)
+- [Reset 和 Revert](./notes/Git命令/reset和revert.md)
 
 ### 🌼 Linux 命令
 
