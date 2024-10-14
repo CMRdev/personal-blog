@@ -1,10 +1,12 @@
-1. 打开 git GUI
+# Git 常用命令
+
+## 1. 打开 git GUI
 
 ```bash
 gitk
 ```
 
-2. 常用 git 命令
+## 2. 常用 git 命令
 
 ```bash
 	git pull <远程仓库名> <分支名>		#拉取（会合并）
@@ -28,7 +30,7 @@ gitk
 				#git stash pop	#把之前放入堆栈的c拿出来
 ```
 
-3. 其他
+## 3. 其他
 
 ```bash
 	git helper -a	#查看全部git子命令
@@ -44,7 +46,7 @@ gitk
 
 ```
 
-4. 合并 dev 分支代码到 master
+## 4. 合并 dev 分支代码到 master
 
 ```bash
 	git checkout master
@@ -53,9 +55,21 @@ gitk
 
 ```
 
-5. 打 tag
+## 5. 打 tag
 
 ```bash
 	git tag -a v1.0.0 -m "..."
 	git push origin v1.0.0
 ```
+
+## 6. 图片介绍
+
+![git工作流](./image/git工作流.png)
+
+![git_branch](./image/git_branch.png)
+
+![git推送改动](./image/git推送改动.png)
+
+![git更新与合并](./image/git更新与合并.png)
+
+![git_tag](./image/git_tag.png)
