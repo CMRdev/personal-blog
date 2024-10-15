@@ -2,33 +2,29 @@
 
 ## 1. 打开 git GUI
 
-```bash
-gitk
-```
+- gitk
 
 ## 2. 常用 git 命令
 
-```bash
-	git pull <远程仓库名> <分支名>		#拉取（会合并）
-	git fetch <远程仓库名> <分支名>		#获取（不会合并）
+- `git pull <远程仓库名> <分支名>` #拉取（会合并）
+- `git fetch <远程仓库名> <分支名>` #获取（不会合并）
 
-	git init	#初始化主分支
-	git clone ...		#克隆远程仓库
-	git clone -b dev ...	# 克隆dev分支
-	git status		#查看状态
-	git add xxx		#将文件xxx存入暂存区
-	git add b c 	#把b和c存入暂存区
-	git add .			#将所有文件提交到暂存区
-	git checkout -- xxx 	#撤销工作区的修改（eg. git checkout -- readme.md	#将本次readme.md在工作区的修改撤销掉）
-	git commit -m 备注信息	#提交到仓库
-	git commit -am 备注信息	#若仓库中已有若干文件，再次提交可简化为此步
-	git stash -u -k 	#提交部分内容到仓库。如有a、b、c三个文件，只想提交a、b到远程仓库：
-				#git add a b
-				#git stash -u -k
-				#git commit -m 备注信息
-				#git push
-				#git stash pop	#把之前放入堆栈的c拿出来
-```
+- `git init` #初始化主分支
+- `git clone ...` #克隆远程仓库
+- `git clone -b dev ...` # 克隆 dev 分支
+- `git status` #查看状态
+- `git add xxx` #将文件 xxx 存入暂存区
+- `git add b c` #把 b 和 c 存入暂存区
+- `git add .` #将所有文件提交到暂存区
+- `git checkout -- xxx` #撤销工作区的修改（eg. git checkout -- readme.md #将本次 readme.md 在工作区的修改撤销掉）
+- `git commit -m 备注信息` #提交到本地仓库
+- `git commit -am 备注信息` #若本地仓库中已有若干文件，再次提交可简化为此步
+- `git stash -u -k` #提交部分内容到仓库。如有 a、b、c 三个文件，只想提交 a、b 到远程仓库：
+  - git add a b
+  - git stash -u -k # -u‌：表示包含未跟踪的文件（untracked files）; -k‌：表示保持暂存区的状态不变（keep index）
+  - git commit -m 备注信息
+  - git push
+  - git stash pop #把之前放入堆栈的 c 拿出来
 
 ## 3. 其他
 
