@@ -64,6 +64,8 @@
 
 ### 🥨 TypeScript
 
+- [Part1.pre](./notes/TypeScript/Part1.pre.md)
+- [Part2.基础类型](./notes/TypeScript/Part2.基础类型.md)
 - [泛型](./notes/TypeScript/泛型.md)
 
 ### 🎇 vue2.0
