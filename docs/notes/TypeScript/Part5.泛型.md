@@ -13,9 +13,30 @@
 
 - 【作用】：提高代码复用率、泛型中的类型在使用时指定，不需要强制类型转换（类型安全，编译器会检查类型）【泛型只在编译阶段有效，运行时会将泛型的相关信息擦除】
 
-## 2、js 判断数据类型的方法汇总
+## 2、试例
 
-- 【返回表示数据类型的字符串】typeof entity.path.show === 'object'
-- 【A instanceof B 可以判断 A 是不是 B 的实例】xxx instanceof Function 【instanceof 后面一定要是对象类型，大小写不能写错】
-- 【用 Object 的 toString.call 来判断，返回一个字符串】toString.call(123) // [object Number]
-- 【根据 contructor 判断】[1,2,3].constructor === Array
+```js
+/**
+ * 泛型，T是自定义的类型名字可以自己取
+ */
+function logData<T>(data: T) {
+  console.log(data)
+}
+logData<number>(100)
+logData<string>('sdfasd')
+/**
+ * 泛型接口
+ */
+interface IPersonTom<T> {
+  name: string
+  info: T
+}
+let p: IPersonTom<number> = {
+  name: 'tom',
+  info: 13465
+}
+/**
+ * 泛型类
+ */
+class PersonTom<T> {}
+```

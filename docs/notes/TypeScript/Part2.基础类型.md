@@ -8,30 +8,41 @@
 ## 2、TS 新增的数据类型
 
 - 联合类型
+
   ```js
   let a: string | number = 'hello'
   ```
+
 - 类型别名
+
   ```js
-  type Person = { name: string; age: number }
+  type Person = { name: string, age: number }
   let person: Person = { name: 'John', age: 30 }
   ```
+
 - interface
+
   ```js
   interface User { name: string email: string }
   let user: User = { name: 'Jane', email: 'jane@example.com' }
   ```
+
 - tuple
+
   ```js
   let personTuple: [string, number] = ['John', 30]
   //（表示一个包含字符串和数字的元组）
   ```
+
 - 字面量类型
+
   ```js
   let direction: 'up' | 'down' | 'left' | 'right' = 'up'
   //（变量direction只能是这四个字符串值之一）
   ```
+
 - enum
+
   ```js
   enum Color {
     Red,
@@ -40,14 +51,18 @@
   }
   let color: Color = Color.Red
   ```
+
 - void
+
   ```js
   function logMessage(): void {
     console.log('This is a log message.')
   }
   // （表示该方法没有返回值）
   ```
+
 - any
+
   ```js
   let dynamicValue: any = 'This could be anything'
   dynamicValue = 123

@@ -261,6 +261,11 @@ console.log(result)
 
 ## 4、js 判断数据类型的方法汇总
 
+- 【返回表示数据类型的字符串】typeof entity.path.show === 'object'
+- 【A instanceof B 可以判断 A 是不是 B 的实例】xxx instanceof Function 【instanceof 后面一定要是对象类型，大小写不能写错】
+- 【用 Object 的 toString.call 来判断，返回一个字符串】toString.call(123) // [object Number]
+- 【根据 contructor 判断】[1,2,3].constructor === Array
+
 ### 【返回表示数据类型的字符串】
 
 ```js

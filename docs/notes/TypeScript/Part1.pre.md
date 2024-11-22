@@ -9,6 +9,7 @@
 
 - `tsc --init`
 - tsconfig.json 配置
+
   ```json
   {
     "compilerOptions": {
@@ -32,3 +33,9 @@
     "files": ["demo.ts"]
   }
   ```
+
+- `tsc -w` 自动生成`.js` 文件
+
+## 3、.d.ts
+
+- `.d.ts` 文件用来：在 ts 文件中引入 js 不提示报错

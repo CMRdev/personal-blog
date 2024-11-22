@@ -66,7 +66,9 @@
 
 - [Part1.pre](./notes/TypeScript/Part1.pre.md)
 - [Part2.基础类型](./notes/TypeScript/Part2.基础类型.md)
-- [泛型](./notes/TypeScript/泛型.md)
+- [Part3.类型声明](./notes/TypeScript/Part3.类型声明.md)
+- [Part4.类+接口](./notes/TypeScript/Part4.类+接口.md)
+- [Part5.泛型](./notes/TypeScript/Part5.泛型.md)
 
 ### 🎇 vue2.0
 
