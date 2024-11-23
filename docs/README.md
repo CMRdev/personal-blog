@@ -69,6 +69,8 @@
 - [Part3.类型声明](./notes/TypeScript/Part3.类型声明.md)
 - [Part4.类+接口](./notes/TypeScript/Part4.类+接口.md)
 - [Part5.泛型](./notes/TypeScript/Part5.泛型.md)
+- [Part6.类装饰器](./notes/TypeScript/Part6.类装饰器.md)
+- [Part7.其他装饰器](./notes/TypeScript/Part7.其他装饰器.md)
 
 ### 🎇 vue2.0
 
