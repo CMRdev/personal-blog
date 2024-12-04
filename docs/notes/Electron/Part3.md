@@ -24,7 +24,6 @@
 
 - `npm create electron-vite`
 
-
-    // "dev": "vite",
-    // "build": "vue-tsc && vite build && electron-builder",
-    // "preview": "vite preview",
+  // "dev": "vite",
+  // "build": "vue-tsc && vite build && electron-builder",
+  // "preview": "vite preview",
