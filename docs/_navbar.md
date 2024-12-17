@@ -49,9 +49,12 @@
 
   - [linux 常用命令](./notes/Linux命令/linux常用命令.md)
   - [linux 常用命令（二）](./notes/Linux命令/linux常用命令（二）.md)
-  - [docker 常用命令](./notes/Linux命令/docker常用命令.md)
   - [使用 Jenkins 进行 CI&CD](./notes/Linux命令/使用Jenkins进行CI&CD.md)
   - [Linux 目录解释](./notes/Linux命令/Linux目录解释.md)
+
+- [Docker 命令](/)
+
+  - [docker 常用命令](./notes/Docker命令/docker常用命令.md)
 
 - [ElasticSearch](/)
 

@@ -1,93 +1,45 @@
 ## 1、Docker 控制命令
 
-- 启动 Docker 服务
-
-  ```bash
-  sudo systemctl start docker
-  ```
-
-- 使 Docker 服务开机自启
-
-  ```bash
-  sudo systemctl enable docker
-  ```
-
-- 查看启动状态
-
-  ```bash
-  systemctl status docker
-  ```
-
-- 停止 docker
-  ```bash
-  systemctl stop docker
-  ```
+```bash
+# 启动 Docker 服务
+sudo systemctl start docker
+# 使 Docker 服务开机自启
+sudo systemctl enable docker
+# 查看启动状态
+systemctl status docker
+# 停止 docker
+systemctl stop docker
+```
 
 ## 2、Docker 内部命令
 
-- 将基础镜像导入到 docker 中
+```bash
+# 将基础镜像导入到 docker 中
+docker load -i server7_docker_image.tar
+# 查看镜像是否导入成功(查看所有镜像)
+docker images
+# 启动容器
+docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]
+## OPTIONS-包含了一些参数，用于配置和控制容器的各种方面。
+## IMAGE-是要使用的Docker镜像。
+## COMMAND-是在容器内执行的命令，
+## ARG-是该命令的参数。
 
-  ```bash
-  docker load -i server7_docker_image.tar
-  ```
-
-- 查看镜像是否导入成功(查看所有镜像)
-
-  ```bash
-  docker images
-  ```
-
-- 启动容器
-
-  ```bash
-  docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]
-  # OPTIONS-包含了一些参数，用于配置和控制容器的各种方面。
-  # IMAGE-是要使用的Docker镜像。
-  # COMMAND-是在容器内执行的命令，
-  # ARG-是该命令的参数。
-  ```
-
-- 查看当前运行的镜像及所在容器(列出所有容器)
-
-  ```bash
-  docker ps -a
-  ```
-
-- 停止容器
-
-  ```bash
-  docker stop 容器id|容器name
-  ```
-
-- 查看 docker 版本
-
-  ```bash
-  docker version
-  ```
-
-- 移除镜像
-
-  ```bash
-  docker rmi -f ...
-  ```
-
-- 移除容器
-
-  ```bash
-  docker rm -f 容器名/ID
-  ```
-
-- 进入容器 `bash`
-
-  ```bash
-  docker exec -it '容器 ID' bash
-  ```
-
-- 退出容器`bash`
-
-  ```bash
-  ctrl+Q+P
-  ```
+# 查看当前运行的镜像及所在容器(列出所有容器)
+docker ps -a
+# 停止容器
+docker stop 容器id|容器name
+# 查看 docker 版本
+docker version
+# 移除镜像
+docker rmi -f ...
+# 移除容器
+docker rm -f 容器名/ID
+# 进入容器 `bash`
+docker exec -it '容器 ID' bash
+# 退出容器`bash`
+ctrl+Q+P
+```
 
 ## 3、示例解析
 
