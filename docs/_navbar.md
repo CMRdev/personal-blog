@@ -26,6 +26,8 @@
   - [计算两点连线与正北方向夹角](./notes/Cesium相关/计算两点连线与正北方向夹角.md)
   - [计算目标点位置](./notes/Cesium相关/计算目标点位置.md)
   - [计算欧拉角 hpr](./notes/Cesium相关/计算欧拉角hpr.md)
+  - [WebGL 在 Win7 环境中的 BUG](./notes/Cesium相关/Win7环境项目bug.md)
+  - [可拖拽标牌](./notes/Cesium相关/可拖拽标牌.md)
 
 - [开发环境](/)
 
