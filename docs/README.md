@@ -37,6 +37,7 @@
 - [LF 和 CRLF](./notes/开发环境/LF&CRLF.md)
 - [MarkDown 语法](./notes/开发环境/Markdown语法速查.md)
 - [VScode 快捷键](./notes/开发环境/VS_Code快捷键.md)
+- [搭建vite+vue项目](./notes/开发环境/搭建vite+vue项目.md)
 
 ### 🍂 Git 命令
 
