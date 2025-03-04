@@ -21,8 +21,8 @@
 
 ## 2、手动跑 jar 包
 
-- 查看 jar 包占用的 pid：`ps -ef|grep xxx.jar`
-- 杀死进程：`kill -9 pid`
+- 查看 jar 包占用的 pid：`ps -ef | grep xxx.jar` 【-e：every 查找每一个进程,-f：full-formate 以完整格式显示进程信息】
+- 杀死进程：`kill -9 pid`或`pkill -9 进程名称`
 - 启动进程：`nohup java -jar xxx.jar`
 - 更换后台 jar 包端口为 18080：`nohup java -jar targetdisplay-admin.jar --server.port=18080 >log.txt 2>&1 &`
 - 指定配置文件：`nohup java -Dserver.port=8086  -Dspring.config.additional-location=./application-dev.yml -jar ./springboot.jar> nohup.out 2>&1 &`

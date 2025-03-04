@@ -25,10 +25,11 @@
   - [框选实体](./notes/Cesium相关/框选实体.md)
   - [计算两点连线与正北方向夹角](./notes/Cesium相关/计算两点连线与正北方向夹角.md)
   - [计算目标点位置](./notes/Cesium相关/计算目标点位置.md)
+  - [计算方向向量](./notes/Cesium相关/计算方向向量.md)
   - [计算欧拉角 hpr](./notes/Cesium相关/计算欧拉角hpr.md)
   - [WebGL 在 Win7 环境中的 BUG](./notes/Cesium相关/Win7环境项目bug.md)
   - [可拖拽标牌](./notes/Cesium相关/可拖拽标牌.md)
-  - [斜视-计算flyTo的中心点](./notes/Cesium相关/斜视-计算flyTo的中心点.md)
+  - [斜视-计算 flyTo 的中心点](./notes/Cesium相关/斜视-计算flyTo的中心点.md)
 
 - [开发环境](/)
 
@@ -52,8 +53,8 @@
 
   - [linux 常用命令](./notes/Linux命令/linux常用命令.md)
   - [linux 常用命令（二）](./notes/Linux命令/linux常用命令（二）.md)
+  - [Linux 常用命令（三）](./notes/Linux命令/Linux常用命令（三）.md)
   - [使用 Jenkins 进行 CI&CD](./notes/Linux命令/使用Jenkins进行CI&CD.md)
-  - [Linux 目录解释](./notes/Linux命令/Linux目录解释.md)
 
 - [Docker 命令](/)
 

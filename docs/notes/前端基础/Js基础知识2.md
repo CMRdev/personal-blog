@@ -299,3 +299,6 @@ toString.call(123) // [object Number]
 
 - eval()：将字符串转为脚本执行
 - NaN：`not a number`
+- `if(seed == void 0){}` // void o -> undefined
+- `'123' >> 0` // 右移 0 位，将字符串转为数字
+- `128 >>> 1` // 64，无符号右移 高位补零
