@@ -29,7 +29,7 @@ img.emoji {
 }
 img.emoji,
 span.emoji {
-  vertical-align: baseline;
+  vertical-align: text-top;
 }
 span.emoji {
   font-family: Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
@@ -857,4 +857,10 @@ code .token {
   min-height: 1.5rem;
   position: relative;
   left: auto;
+}
+.markdown-section tr {
+  border: none;
+}
+.markdown-section td, .markdown-section th {
+  border: none;
 }
