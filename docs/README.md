@@ -20,6 +20,7 @@
 - [拾取图元、获取点](./notes/Cesium相关/拾取图元、获取点.md)
 - [模型工具](./notes/Cesium相关/模型工具.md)
 - [模型控制](./notes/Cesium相关/模型控制.md)
+- [模型大小调整](./notes/Cesium相关/模型大小调整.md)
 - [相机控制](./notes/Cesium相关/相机控制.md)
 - [模型移动、连线](./notes/Cesium相关/模型移动、连线.md)
 - [框选实体](./notes/Cesium相关/框选实体.md)
