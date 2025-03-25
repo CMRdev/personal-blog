@@ -33,6 +33,7 @@
 - [WebGL 在 Win7 环境中的 BUG](/notes/Cesium相关/Win7环境项目bug.md)
 - [可拖拽标牌](/notes/Cesium相关/可拖拽标牌.md)
 - [斜视-计算 flyTo 的中心点](/notes/Cesium相关/斜视-计算flyTo的中心点.md)
+- [Blender使用](/notes/Cesium相关/Blender使用.md)
 
 ### ⛏ 开发环境
 
