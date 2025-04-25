@@ -25,3 +25,9 @@
       # git commit -m 'resolve conflicts'
   git push
   ```
+
+## commit 后还未 push，如何撤回 commit?
+
+- `git reset --soft HEAD~1` 撤销最近的提交，保留工作区和暂存区的内容【`HEAD~1`表示上一个提交】
+- `git reset --mixed HEAD~1` 撤销最近的提交，并且重置暂存区，但保留工作区的内容
+- `git reset --hard HEAD~1` 撤销最近的提交，并且重置工作区和暂存区【注意：会丢失未提交的改动】

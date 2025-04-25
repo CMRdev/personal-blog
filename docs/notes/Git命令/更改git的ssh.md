@@ -9,6 +9,8 @@ git config --global user.email '邮箱'
 
 ```bash
 ssh-keygen -t rsa -C '邮箱'
+# -t：type 指定密钥的类型 通常为RSA或DSA
+# -C：commit 提供一个注释 通常用于标注密钥的用途或其他信息
 ```
 
 3. 复制 .ssh/id_rsa.pub 文件内容
