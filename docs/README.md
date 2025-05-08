@@ -33,7 +33,7 @@
 - [WebGL 在 Win7 环境中的 BUG](/notes/Cesium相关/Win7环境项目bug.md)
 - [可拖拽标牌](/notes/Cesium相关/可拖拽标牌.md)
 - [斜视-计算 flyTo 的中心点](/notes/Cesium相关/斜视-计算flyTo的中心点.md)
-- [Blender使用](/notes/Cesium相关/Blender使用.md)
+- [Blender 使用](/notes/Cesium相关/Blender使用.md)
 
 ### ⛏ 开发环境
 
@@ -46,11 +46,12 @@
 
 ### 🍂 Git 命令
 
-- [git 常用命令](/notes/Git命令/git常用命令.md)
-- [将本地项目上传到 gitlab](/notes/Git命令/将本地项目上传到gitlab.md)
-- [更改 git 的 ssh](/notes/Git命令/更改git的ssh.md)
-- [更改推送方式](/notes/Git命令/更改推送方式.md)
+- [Part1.常用命令](/notes/Git命令/Part1.常用命令.md)
+- [Part2.命令进阶](/notes/Git命令/Part2.命令进阶.md)
 - [Reset 和 Revert](/notes/Git命令/reset和revert.md)
+- [SSH 密钥生成](/notes/Git命令/SSH密钥生成.md)
+- [关联 gitlab](/notes/Git命令/关联gitlab.md)
+- [更改推送方式](/notes/Git命令/更改推送方式.md)
 
 ### 🌼 Linux 命令
 
