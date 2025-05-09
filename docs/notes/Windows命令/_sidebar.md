@@ -1,0 +1,3 @@
+- [常用命令](/notes/Windows命令/常用命令.md)
+- [实用命令](/notes/Windows命令/实用命令.md)
+- [启动 redis](/notes/Windows命令/启动redis.md)

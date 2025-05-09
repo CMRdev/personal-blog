@@ -1,0 +1,4 @@
+- [linux 常用命令](/notes/Linux命令/linux常用命令.md)
+- [linux 常用命令（二）](/notes/Linux命令/linux常用命令（二）.md)
+- [Linux 常用命令（三）](/notes/Linux命令/Linux常用命令（三）.md)
+- [使用 Jenkins 进行 CI&CD](/notes/Linux命令/使用Jenkins进行CI&CD.md)

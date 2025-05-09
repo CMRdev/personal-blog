@@ -1,0 +1,3 @@
+- [nginx 配置示例](/notes/项目部署/nginx配置示例.md)
+- [nginx 项目部署](/notes/项目部署/nginx项目部署.md)
+- [tomcat 配置](/notes/项目部署/tomcat配置.md)

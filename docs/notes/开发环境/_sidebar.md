@@ -1,0 +1,6 @@
+- [优雅地切换 node 版本](/notes/开发环境/优雅地切换node版本.md)
+- [使用 prettier 统一代码风格](/notes/开发环境/使用prettier统一代码风格.md)
+- [LF 和 CRLF](/notes/开发环境/LF&CRLF.md)
+- [MarkDown 语法](/notes/开发环境/Markdown语法速查.md)
+- [VScode 快捷键](/notes/开发环境/VS_Code快捷键.md)
+- [搭建 vite+vue 项目](/notes/开发环境/搭建vite+vue项目.md)

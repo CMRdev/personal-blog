@@ -1,33 +1,31 @@
-# 目录
+- [⏲ 前端基础](/notes/前端基础/css.md)
 
-- [⏲ 前端基础](/)
+- [🌏 Cesium 相关](/notes/Cesium相关/Index.md)
 
-- [🌏 Cesium 相关](/)
+- [⛏ 开发环境](/notes/开发环境/优雅地切换node版本.md)
 
-- [⛏ 开发环境](/)
+- [🍂 Git 命令](/notes/Git命令/Part1.常用命令.md)
 
-- [🍂 Git 命令](/)
+- [🌼 Linux 命令](/notes/Linux命令/linux常用命令.md)
 
-- [🌼 Linux 命令](/)
+- [🍟Docker 命令](/notes/Docker命令/docker常用命令.md)
 
-- [🍟Docker 命令](/)
+- [🧫 Windows 命令](/notes/Windows命令/常用命令.md)
 
-- [🧫 Windows 命令](/)
+- [🍟 Python](/notes/python/python.md)
 
-- [🍟 Python](/)
+- [🥨 TypeScript](/notes/TypeScript/Part1.pre.md)
 
-- [🥨 TypeScript](/)
+- [🎇 vue2.0](/notes/Vue2.0/Vue2.0的一些注意事项.md)
 
-- [🎇 vue2.0](/)
+- [📐 vue3.0](/notes/Vue3.0/Part1.基础.md)
 
-- [📐 vue3.0](/)
+- [🧵 ElasticSearch](/notes/ElasticSearch/安装ES.md)
 
-- [🧵 ElasticSearch](/)
+- [📊 项目部署](/notes/项目部署/nginx配置示例.md)
 
-- [📊 项目部署](/)
+- [📊 Java](/notes/Java/修改jar中的配置文件.md)
 
-- [📊 Java](/)
+- [🎂 其他](/notes/其他/SCP文件传输.md)
 
-- [🎂 其他](/)
-
-- [🍳 杂记](/)
+- [🍳 杂记](/notes/杂记/EnglishWords.md)
