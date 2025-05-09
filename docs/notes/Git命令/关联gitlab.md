@@ -1,4 +1,4 @@
-# 将本地项目上传到 Gitlab
+# 关联 Gitlab
 
 ## 1、方式一
 
@@ -14,10 +14,10 @@ git clone 项目地址
 5. 在“ Git Bash Here” git 命令窗口输入命令：
 
 ```bash
-	git add .   # 加入到暂存区
-	git commit -m "Initial commit"  #提交到本地仓库
-	git push -u origin master  #推送到远程仓库origin（git将远程仓库自动命名为origin）的master分支
-	# -u 是指在将当前分支与远程分支进行关联，关联后可简化命令：git push
+git add .   # 加入到暂存区
+git commit -m "Initial commit"  #提交到本地仓库
+git push -u origin master  #推送到远程仓库origin（git将远程仓库自动命名为origin）的master分支
+# -u 是指在将当前分支与远程分支进行关联，关联后可简化命令：git push
 ```
 
 ## 2、方式二
