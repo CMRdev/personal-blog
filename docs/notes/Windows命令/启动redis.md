@@ -2,38 +2,25 @@
 
 ## 1、windows 版 redis 启动
 
-- 安装好后，后台启动 redis
+```bash
+# 安装好后，后台启动 redis
+./redis-server &
 
-  ```bash
-  ./redis-server &
-  ```
+# 检查是否启动成功（返回 PONG 则成功）
+./redis-cli ping
 
-- 检查是否启动成功（返回 PONG 则成功）
+# 连接到 redis
+./redis-cli
 
-  ```bash
-  ./redis-cli ping
-  ```
+# 使用 redis 中的命令
+keys *
+set key "helloworld"
+get key
 
-- 连接到 redis：
-
-  ```bash
-  ./redis-cli
-  ```
-
-- 使用 redis 中的命令
-
-  ```bash
-  keys *
-  set key "helloworld"
-  get key
-  ```
-
-- 关闭 redis 客户端
-
-  ```bash
-  redis-cli shutdown
-  或：kill -9 PID
-  ```
+# 关闭 redis 客户端
+redis-cli shutdown
+或：kill -9 PID
+```
 
 ## 2、windows 安装 redis
 
