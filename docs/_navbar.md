@@ -47,6 +47,7 @@
 
   - [Part1.常用命令](/notes/Git命令/Part1.常用命令.md)
   - [Part2.命令进阶](/notes/Git命令/Part2.命令进阶.md)
+  - [Part3.命令简表](/notes/Git命令/Part3.命令简表.md)
   - [Reset 和 Revert](/notes/Git命令/reset和revert.md)
   - [SSH 密钥生成](/notes/Git命令/SSH密钥生成.md)
   - [关联 gitlab](/notes/Git命令/关联gitlab.md)
