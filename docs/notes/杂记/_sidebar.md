@@ -1,5 +1,5 @@
-- [英语单词](/notes/杂记/EnglishWords.md)
-- [杂记一](/notes/杂记/杂记一.md)
-- [高清地图](/notes/杂记/高清地图.md)
+- [英语单词](/notes/杂记/part1.EnglishWords.md)
+- [杂记一](/notes/杂记/part2.杂记一.md)
+- [高清地图](/notes/杂记/part3.高清地图.md)
 - [欧洲建筑风格](/notes/杂记/part5.欧洲建筑风格.md)
 - [哑巴的一生](/notes/杂记/part6.哑巴的一生.md)

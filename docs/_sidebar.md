@@ -28,4 +28,4 @@
 
 - [🎂 其他](/notes/其他/SCP文件传输.md)
 
-- [🍳 杂记](/notes/杂记/EnglishWords.md)
+- [🍳 杂记](/notes/杂记/part1.EnglishWords.md)
