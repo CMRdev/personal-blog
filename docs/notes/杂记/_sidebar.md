@@ -3,3 +3,6 @@
 - [高清地图](/notes/杂记/part3.高清地图.md)
 - [欧洲建筑风格](/notes/杂记/part5.欧洲建筑风格.md)
 - [哑巴的一生](/notes/杂记/part6.哑巴的一生.md)
+- [QQ 记录](/notes/杂记/part99.qq_records.md)
+- [QQ 记录 2](/notes/杂记/part99.qq_records2.md)
+- [QQ 记录 3](/notes/杂记/part99.qq_records3.md)
