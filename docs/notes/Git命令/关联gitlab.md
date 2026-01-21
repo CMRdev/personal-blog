@@ -28,3 +28,14 @@ git push -u origin master  #推送到远程仓库origin（git将远程仓库自�
 4. `git commit -m 'message'` - 提交到本地仓库
 5. `git remote add origin http://82.157.206.150/17s-situation/git-test` - 关联远程仓库
 6. `git push -u origin master` - 推送到远程仓库 origin 的 master 分支
+
+## 3、在 github 上下载了 zip 包
+
+> 如何将 zip 包关联到 github 仓库？
+
+- git init
+- git add .
+- git commit -m 'Initial commit'
+- git remote add origin https://github.com/CesiumGS/cesium.git
+- git remote -v
+- git fetch origin main ## 单独 fetch 某个分支的更新

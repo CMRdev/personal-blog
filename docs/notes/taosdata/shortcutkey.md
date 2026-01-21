@@ -4,6 +4,7 @@
 
 - 截图快捷键：`command+shift+3`截取整个屏幕到桌面、`command+shift+control+3`截取整个屏幕到粘贴板
 - 截图快捷键：`command+shift+4`截取部分屏幕到桌面、`command+shift+control+4`截取部分屏幕到粘贴板
+- 截图快捷键：`command+shift+5`打开截图面板
 - 最小化当前窗口：`command+m`
 - 打开 chrome 的开发者模式：`command+option+i`
 - 打开 chrome 的开发者模式并开始选择元素：`command+option+c`
@@ -13,6 +14,7 @@
 - 锁屏：`control+command+q`
 - vscode 格式化代码：`shift+option+f`
 - vscode 一行显示：`control+j`
+- `dock` 不知为何跑到扩展屏去了：将鼠标指针放到主屏幕最下方中间等待一会儿会自动回来
 
 ## command
 
