@@ -1,4 +1,4 @@
-# git 
+# git
 
 ## 1、本地有变动的情况下拉取代码
 
@@ -12,7 +12,6 @@ git pull origin dev
 git stash pop
 ```
 
-
 ## 2、当前分支与远程分支太久没合并了，出现了大量冲突
 
 ```bash
@@ -23,6 +22,7 @@ git rebase --abort
 ```
 
 ## 3、回退
+
 ```bash
 # 查看提交记录
 git reflog
@@ -32,3 +32,11 @@ git reset --hard HEAD{25}
 git push --force-with-lease
 ```
 
+## 4、merge冲突
+
+```bash
+# 拉取远程分支
+git pull origin dev
+# 冲突，不想合并了，想回到pull之前
+git merge --abort
+```

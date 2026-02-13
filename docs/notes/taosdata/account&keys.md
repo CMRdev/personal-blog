@@ -19,3 +19,7 @@
 - LinkedIn：18916193125@163.com
 
 - zacharyzhou@taosdata.com / tbase125!
+- yqli@taosdata.com / tbase125!
+
+- https://idmp.tdengine.com/
+- ybshi@taosdata.com / tbase125!

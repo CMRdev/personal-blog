@@ -27,6 +27,6 @@
 - 找到 java 的安装位置：/usr/libexec/java_home -V
 - 写入环境变量：echo 'export JAVA_HOME=$(/usr/libexec/java_home)' >> ~/.zshrc
 - docker compose up -d
-- docker compose down
+- docker compose down -v
 - brew install git-gui
 - 查看端口占用：`lsof -i | grep LISTEN`
