@@ -23,3 +23,10 @@
 
 - https://idmp.tdengine.com/
 - ybshi@taosdata.com / tbase125!
+
+- AiBerm
+- `sk-82HGGwLtcWIcWcukhBpnr5LZEPaPnCL9y8CEfxxWMBkBwq2z`
+
+- gitlab (https://192.168.15.4)
+- https://git.tdengine.net/taosdata/agent-skills-internal
+- `mingrenchen / #Cmr2030405`

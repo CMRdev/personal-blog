@@ -40,3 +40,19 @@ git pull origin dev
 # 冲突，不想合并了，想回到pull之前
 git merge --abort
 ```
+
+## 5、删除分支
+
+```bash
+git branch -D dev-cmr
+git push origin --delete dev-cmr
+git branch dev-cmr
+git checkout dev-cmr
+git push --set-upstream origin dev-cmr
+```
+
+## 6、当上一次的commit还未push，如何回退
+
+```bash
+git reset --soft HEAD~1
+```
