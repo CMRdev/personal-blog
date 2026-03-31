@@ -56,3 +56,19 @@ git push --set-upstream origin dev-cmr
 ```bash
 git reset --soft HEAD~1
 ```
+
+## 7、worktree
+
+```bash
+# 列出所有 worktree
+git worktree list
+
+# 添加 worktree
+git worktree add <path> <branch>
+
+# 删除 worktree
+git worktree remove <path>
+
+# 清理过期的 worktree 信息
+git worktree prune
+```
