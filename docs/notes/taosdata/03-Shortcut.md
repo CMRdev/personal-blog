@@ -14,6 +14,7 @@
 - 锁屏：`control+command+q`
 - vscode 格式化代码：`shift+option+f`
 - vscode 一行显示：`control+j`
+- vscode 导航历史：`control+-` 后退，`control+shift+-` 前进
 - `dock` 不知为何跑到扩展屏去了：将鼠标指针放到主屏幕最下方中间等待一会儿会自动回来
 
 ## command
