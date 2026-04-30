@@ -18,15 +18,22 @@
 
 - LinkedIn：18916193125@163.com
 
-- zacharyzhou@taosdata.com / tbase125!
+- zacharyzhou@taosdata.com / tbase125! [192.168.127.142]
 - yqli@taosdata.com / tbase125!
 
 - https://idmp.tdengine.com/
 - ybshi@taosdata.com / tbase125!
 
-- AiBerm
-- `sk-82HGGwLtcWIcWcukhBpnr5LZEPaPnCL9y8CEfxxWMBkBwq2z`
-
 - gitlab (https://192.168.15.4)
 - https://git.tdengine.net/taosdata/agent-skills-internal
 - `mingrenchen / #Cmr2030405`
+
+运行环境：https://telegraf.tdengine.net
+登录：boxiaobj@gmail.com / tbase125!
+
+- localhost:6060
+- root/taosdata
+
+## grafana
+
+- mingrenchen@grafana.net

@@ -72,3 +72,16 @@ git worktree remove <path>
 # 清理过期的 worktree 信息
 git worktree prune
 ```
+
+## 8、some instructions
+
+- gitk 命令还未生效： brew install git-gui
+
+## 合并 dev 分支代码到 dev-mingrenchen
+
+- git checkout dev-mingrenchen
+- git fetch origin dev
+- git merge origin/dev
+- 解决冲突：git add <file>
+- git commit
+- git push origin dev-mingrenchen

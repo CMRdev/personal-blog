@@ -1,24 +1,47 @@
 # 周记
 
+## 工作计划排期
+
+> ### 📅 总排期：2026/4/2（周四）→ 2026/6/3（周二），共 42 个工作日
+>
+> 排期规则：每项纯开发工时 × 1.3（含 20% 测试 + 10% 其他Bug 修复），向上取整至整天。周末休息，五一（5/1~5/5）放假。
+> 策略：先完成所有现有 Chart Type 配置补全，再统一开发新 Chart Type。
+
+### 周视图
+
+| 周次 |    日期     | 任务 & 人天                                                         | 周工作量 |
+| :--: | :---------: | ------------------------------------------------------------------- | :------: |
+|  W1  |  4/2 ~ 4/3  | 系列颜色 **2天**                                                    |   2天    |
+|  W2  | 4/6 ~ 4/10  | Pie **2天** · Gauge **1天** · Bar Gauge 多指标 **2天**              |   5天    |
+|  W3  | 4/13 ~ 4/17 | Bar Gauge 多指标 **1天** · Table **3天** · Stat **1天**             |   5天    |
+|  W4  | 4/20 ~ 4/24 | Line/Bar **2天** · Map **3天**                                      |   5天    |
+|  W5  | 4/27 ~ 4/30 | Map **4天**                                                         |   4天    |
+|  —   |  5/1 ~ 5/5  | 🎉 **五一假期**                                                     |    —     |
+|  W6  |  5/6 ~ 5/8  | Text **1天** · V-Mappings **1天** · Tooltip **1天** ✅ 配置补全交付 |   3天    |
+|  W7  | 5/9 ~ 5/15  | Histogram **4天** · Heatmap **1天**                                 |   5天    |
+|  W8  | 5/18 ~ 5/22 | Heatmap **5天**                                                     |   5天    |
+|  W9  | 5/25 ~ 5/29 | Candlestick **4天** · Sankey **1天**                                |   5天    |
+| W10  |  6/1 ~ 6/3  | Sankey **3天** ✅ 全部交付                                          |   3天    |
+
 ## grafana 调研
 
 |  `CHART-TYPE/OPTIONS`  | Trend Chart  | Bar Chart | Pie Chart | Gauge Chart |      Table      | Scatter Chart | Rich Text | Stat Value  |       Map        | State TimeLine | Status History | Bar Gauge |
 | :--------------------: | :----------: | :-------: | :-------: | :---------: | :-------------: | :-----------: | :-------: | :---------: | :--------------: | :------------: | :------------: | :-------: |
-|     Panel options      |      ✅      |    ✅     |    ✅     |     ✅      |       ✅        |               |    ✅     |     ✅      |        ✅        |       ✅       |       ✅       |    ✅     |
+|     Panel options      |      ✅      |    ✅     |    ✅     |     ✅      |       ✅        |      ✅       |    ✅     |     ✅      |        ✅        |       ✅       |       ✅       |    ✅     |
 |                        |              | Bar chart | Pie chart |    Gauge    |      Table      |               |   Text    | Stat styles |                  | State timeline | Status history | Bar gauge |
-|        Tooltip         |      ❌      |    ❌     |    ❌     |             |                 |               |           |             |                  |       ❌       |       ❌       |           |
-|         Legend         |      ✅      |    ✅     |    ❌     |             |                 |               |           |             |                  |       ❌       |       ❌       |    ❌     |
-|       Text size        |              |    ❌     |           |     ❌      |                 |               |           |     ❌      |                  |                |                |    ❌     |
-|          Axis          |      ✅      |    ✅     |           |             |                 |               |           |             |                  |       ❌       |       ❌       |           |
+|        Tooltip         |      ✅      |    ✅     |    ✅     |             |                 |      ✅       |           |             |                  |       ✅       |       ✅       |           |
+|         Legend         |      ✅      |    ✅     |    ✅     |             |                 |      ✅       |           |             |                  |       ✅       |                |    ❌     |
+|       Text size        |              |    ❌     |           |     ✅      |                 |               |           |     ✅      |                  |                |                |    ✅     |
+|          Axis          |      ✅      |    ✅     |           |             |                 |      ✅       |           |             |                  |       ✅       |       ✅       |           |
 |                        | Graph styles |           |           |             |                 |               |           |             |                  |                |                |           |
 |                        |              |           |           |             | Table footer 🎈 |               |           |             |   Map View 🎈    |                |                |           |
 |                        |              |           |           |             | Cell options 🎈 |               |           |             |  Map Layers 🎈   |                |                |           |
 |                        |              |           |           |             |                 |               |           |             | Basemap layer 🎈 |                |                |           |
 |                        |              |           |           |             |                 |               |           |             | Map controls 🎈  |                |                |           |
-|    Standard options    |      ❌      |    ❌     |    ❌     |     ❌      |       ❌        |               |           |     ❌      |                  |       ❌       |       ❌       |    ❌     |
-| Data links and actions |      ✅      |    ✅     |    ✅     |     ✅      |       ❌        |               |           |     ❌      |                  |       ✅       |       ✅       |    ✅     |
-|     Value Mappings     |      ❌      |    ❌     |    ❌     |     ❌      |       ❌        |               |           |     ❌      |                  |       ❌       |       ✅       |    ❌     |
-|       Thresholds       |      ❌      |    ❌     |           |     ✅      |       ❌        |               |           |     ❌      |                  |       ✅       |       ❌       |    ✅     |
+|    Standard options    |      ✅      |    ✅     |    ✅     |     ✅      |       ❌        |      ✅       |           |     ✅      |                  |       ✅       |       ✅       |    ✅     |
+| Data links and actions |      ✅      |    ✅     |    ✅     |     ✅      |       ❌        |      ✅       |           |     ✅      |                  |       ✅       |       ✅       |    ✅     |
+|     Value Mappings     |      ✅      |    ✅     |    ✅     |     ✅      |       ❌        |      ✅       |           |     ✅      |                  |       ✅       |       ✅       |    ✅     |
+|       Thresholds       |      ✅      |    ✅     |           |     ✅      |       ❌        |      ✅       |           |     ✅      |                  |       ✅       |       ✅       |    ✅     |
 
 ### 0. Configuration Options Required
 
@@ -29,9 +52,9 @@
   |          Name          |   ✅   |                                                          |          |                |
   |      Description       |   ✅   |                                                          |          |                |
   |  Categories(TDasset)   |   ✅   |                                                          |          |                |
-  | Transparent background |   ❌   | 我们的echart图没有前景色，默认都是Transparent background |    ✅    |                |
+  | Transparent background |   ✅   | 我们的echart图没有前景色，默认都是Transparent background |    ✅    |                |
 
-- Standard Options [ ❌ ]
+- Standard Options [ ✅ ]
   - `可以单独封装出组件，适配所有类型chart`
 
   |   options    | status | suggestion                                           | Feasible | Implement Date |
@@ -44,11 +67,11 @@
   | Color Schema |        | 可封装组件在系统中内置多种配色，会中度影响现在的代码 |    ✅    |                |
   |   No Value   |        | 没有值时显示的内容                                   |    ✅    |                |
 
-- Data Links [ ❌ ]
+- Data Links [ ✅ ]
 
   |   Option   | Status | Suggestion | Feasible | Implement Date |
   | :--------: | :----: | :--------: | :------: | :------------: |
-  | Data Links |   ❌   |  后期添加  |    ❌    |                |
+  | Data Links |   ✅   |  后期添加  |    ✅    |                |
   |  Actions   |   ❌   |            |    ❌    |                |
 
 - Value Mappings
@@ -56,15 +79,15 @@
 
     |       Option       | Status | Suggestion | Feasible | Implement Date |
     | :----------------: | :----: | :--------: | :------: | :------------: |
-    | Add value Mappings |   ❌   |  中度影响  |    ✅    |                |
+    | Add value Mappings |   ✅   |  中度影响  |    ✅    |                |
 
 - Thresholds
   - `可封装成单独组件，适配所有类型chart`
 
     |     Option      | Status | Suggestion | Feasible | Implement Date |
     | :-------------: | :----: | :--------: | :------: | :------------: |
-    |  Add Threshold  |   ❌   |  中度影响  |    ✅    |                |
-    | Thresholds mode |   ❌   |  中度影响  |    ✅    |                |
+    |  Add Threshold  |   ✅   |  中度影响  |    ✅    |                |
+    | Thresholds mode |   ✅   |  中度影响  |    ✅    |                |
     | Show Thresholds |   ❌   |  中度影响  |    ✅    |                |
 
 ### 1. Trend Chart
@@ -74,9 +97,9 @@
 
   |     Option      | Status |     Suggestion      | Feasible | Implement Date |
   | :-------------: | :----: | :-----------------: | :------: | :------------: |
-  |  Tooltip mode   |   ❌   | single、all、hidden |    ✅    |                |
+  |  Tooltip mode   |   ✅   | single、all、hidden |    ✅    |                |
   | Hover proximity |   ❌   |                     |    ✅    |                |
-  |    Max width    |   ❌   |                     |    ✅    |                |
+  |    Max width    |   ✅   |                     |    ✅    |                |
 
 - Legend
   - `可封装成单独组件，适配所有类型chart`
@@ -93,8 +116,8 @@
 
   | Option | Status | Suggestion | Feasible | Implement Date |
   | :----: | :----: | :--------: | :------: | :------------: |
-  | Title  |   ❌   |            |          |                |
-  | Value  |   ❌   |            |          |                |
+  | Title  |   ✅   |            |          |                |
+  | Value  |   ✅   |            |          |                |
 
 - Axis
 
@@ -133,16 +156,16 @@
   |          Orientation          |   ✅   |                   |          |                |
   |   Rotate X-axis tick labels   |   ✅   |                   |          |                |
   | X-axis labels minimum spacing |   ✅   |                   |          |                |
-  |          Show values          |   ❌   |                   |    ❌    |                |
+  |          Show values          |   ✅   |                   |    ✅    |                |
   |           Stacking            |   ✅   |                   |          |                |
   |          Group width          |   ❌   |                   |    ✅    |                |
   |           Bar width           |   ✅   |                   |          |                |
-  |          Bar radius           |   ❌   |                   |    ✅    |                |
+  |          Bar radius           |   ✅   |                   |    ✅    |                |
   | Highlight full area on hover  |   ❌   |                   |    ✅    |                |
   |        Color by field         |   ❌   |                   |    ❌    |                |
-  |          Line width           |   ❌   |                   |    ✅    |                |
-  |         Full Opacity          |   ❌   |                   |    ✅    |                |
-  |         Gradient mode         |   ❌   |                   |    ✅    |                |
+  |          Line width           |   ✅   |                   |    ✅    |                |
+  |         Full Opacity          |   ✅   |                   |    ✅    |                |
+  |         Gradient mode         |   ✅   |                   |    ✅    |                |
 
 ### 3. Pie Chart
 
@@ -160,18 +183,18 @@
 
   |      Option      | Status |         Suggestion          | Feasible | Implement Date |
   | :--------------: | :----: | :-------------------------: | :------: | :------------: |
-  |      Style       |   ❌   |         Circle、Arc         |    ✅    |                |
+  |      Style       |   ✅   |         Circle、Arc         |    ✅    |                |
   |   Orientation    |   ✅   |                             |          |                |
-  |    Gauge size    |   ❌   |                             |    ✅    |                |
-  | Bar width factor |   ❌   |                             |    ✅    |                |
-  |     Segments     |   ❌   |                             |    ✅    |                |
-  | Segment spacing  |   ❌   |                             |    ✅    |                |
-  |    Text mode     |   ❌   |                             |    ✅    |                |
+  |    Gauge size    |   ✅   |                             |    ✅    |                |
+  | Bar width factor |   ✅   |                             |    ✅    |                |
+  |     Segments     |   ✅   |                             |    ✅    |                |
+  | Segment spacing  |   ✅   |                             |    ✅    |                |
+  |    Text mode     |   ✅   |                             |    ✅    |                |
   |  Neutral value   |   ❌   |                             |    ✅    |                |
   |  Show sparkline  |   ✅   |                             |          |                |
-  | Show thresholds  |   ❌   |                             |    ✅    |                |
-  |   Show labels    |   ❌   |                             |    ✅    |                |
-  |      Effect      |   ❌   | Gradient BarGlow CenterGlow |    ✅    |                |
+  | Show thresholds  |   ✅   |                             |    ✅    |                |
+  |   Show labels    |   ✅   |                             |    ✅    |                |
+  |      Effect      |   ✅   | Gradient BarGlow CenterGlow |    ✅    |                |
 
 - 支持多个属性显示在一个 gauge 里面，可以选择隐藏一个或者多个属性。 [ ✅ 查询出多少显示多少 ]
 
@@ -235,10 +258,10 @@
   |       Option        | Status |    Suggestion    | Feasible | Implement Date |
   | :-----------------: | :----: | :--------------: | :------: | :------------: |
   |     Orientation     |   ✅   |                  |          |                |
-  |      Text mode      |   ❌   |                  |    ✅    |                |
-  |     Color mode      |   ❌   |                  |    ✅    |                |
-  |     Graph mode      |   ❌   |    None、Area    |    ✅    |                |
-  |   Text alignment    |   ❌   |                  |    ✅    |                |
+  |      Text mode      |   ✅   |                  |    ✅    |                |
+  |     Color mode      |   ✅   |                  |    ✅    |                |
+  |     Graph mode      |   ✅   |    None、Area    |    ✅    |                |
+  |   Text alignment    |   ✅   |                  |    ✅    |                |
   | Show percent change |   ❌   | 需缓存上一次数据 |    ❌    |                |
 
 ### 9. Map

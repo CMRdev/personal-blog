@@ -1,6 +1,6 @@
-# 周记
+# IDMP
 
-# e2e测试配置
+## 1 e2e 本地测试配置
 
 - .env.development
 
@@ -17,3 +17,10 @@ LOGIN_PASSWORD=tbase125!
 locale: 'en-US',
 //locale: 'zh-CN', // 设置为中文
 ```
+
+## backend
+
+- `mvn -T 1C clean package -Dskip.tests=true -Drevision=1.0.10.1`
+- 开启 h2
+- 启动项目
+- 查看端口占用：`lsof -i | grep LISTEN`

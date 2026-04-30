@@ -57,12 +57,6 @@
 
 ## cowork
 
-## barGauge支持多指标
-
-- 需要在同一个canvas里面绘制多个barGauge图，即支持多指标显示
-- 一个指标是一张图，因为不同类型的指标没有可比性
-- 水平、垂直布局针对单张图
-
 ## copilot-cli
 
 ```bash
