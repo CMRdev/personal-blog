@@ -1,3 +1,29 @@
 # English
 
-- emphasis 强调
+- `emphasis` — 强调
+- `invalid assignment target` — 无效的赋值目标
+- `compacting conversation` — 压缩会话
+- `imputation` — 插补；归因
+- `preserve` — 保留；保存
+- `attempting to start live reload endpoint to recover from previous Quarkus startup failure` — 尝试启动热重载端点以从上次 Quarkus 启动失败中恢复
+- `palette` — 调色板
+- `shades of a color` — 颜色的深浅；色调变化
+- `brush` — 画笔
+- `booping` — 轻触；戳一下
+- `attached` — 已附加；附件
+- `asap` — 尽快（as soon as possible）
+- `valiant` — 英勇的；勇敢的
+- `migrate` — 迁移
+- `prompt` — 提示
+- `further considerations` — 进一步考虑；更多注意事项
+- `telemetry` — 遥测
+- `accessible` — 可访问的
+- `simultaneously` — 同时
+- `sparkline` — 迷你图；走势图
+- `wide layout` — 宽布局
+- `neutral point` — 中性点；零点
+- `ring` — 环形；圆环
+- `dimensions` — 维度；尺寸
+- `legacy` — 遗留的；旧版
+- `sticky` — 粘性的；固定的
+- `hue` — 色调；色相

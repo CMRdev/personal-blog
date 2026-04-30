@@ -1,50 +1,61 @@
-# tools install
+# 工具安装与配置
 
-- 安装 node+npm （nvm）
+## 1、Node.js（nvm 管理）
+
+### 安装 nvm
 
 ```bash
-# Download and install nvm:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
-
-# in lieu of restarting the shell
 \. "$HOME/.nvm/nvm.sh"
-
-# Download and install Node.js:
-nvm install 24
-
-# Verify the Node.js version:
-node -v # Should print "v24.12.0".
-
-# Verify npm version:
-npm -v # Should print "11.6.2".
 ```
 
-- nvm 命令失效
+### 安装 Node.js
 
 ```bash
-编辑：~/.zshrc
+nvm install 24
+node -v  # v24.12.0
+npm -v   # 11.6.2
+```
+
+### nvm 命令失效
+
+编辑 `~/.zshrc`，添加以下内容：
+
+```bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-
-刷新配置：source ~/.zshrc
 ```
 
-- 配置 maven
+```bash
+source ~/.zshrc
+```
+
+---
+
+## 2、Maven（配置 JAVA_HOME）
 
 ```bash
-# 找到java的安装目录
+# 查找 Java 安装目录
 /usr/libexec/java_home -V
+
 # 写入环境变量
 echo 'export JAVA_HOME=$(/usr/libexec/java_home)' >> ~/.zshrc
 echo 'export PATH=$JAVA_HOME/bin:$PATH' >> ~/.zshrc
 source ~/.zshrc
 ```
 
-## 进行 python 版本管理
+---
 
-- brew install pyenv
-- 添加配置
+## 3、Python（pyenv 管理）
+
+### 安装 pyenv
+
+```bash
+brew install pyenv
+```
+
+### 配置环境变量（添加到 `~/.zshrc`）
 
 ```bash
 export PATH="$HOME/.pyenv/bin:$PATH"
@@ -52,5 +63,8 @@ eval "$(pyenv init --path)"
 eval "$(pyenv virtualenv-init -)"
 ```
 
-- 安装： pyenv install 3.12.3
-- 设置全局版本： pyenv global 3.12.3
+### 常用命令
+
+- `pyenv install 3.12.3` — 安装指定版本
+- `pyenv global 3.12.3` — 设置全局默认版本
+- `pyenv versions` — 查看已安装的所有版本

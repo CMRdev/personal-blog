@@ -1,87 +1,58 @@
-# git
+# Git 常用操作
 
 ## 1、本地有变动的情况下拉取代码
 
-```bash
-# 用于暂时保存当前工作目录的未提交更改，使工作区恢复到上一次提交的状态
-git stash
-# 区别于merge，保持提交历史线性、整洁，多用于同步主分支代码
-# 但是这个会导致你的commitId里面有其他人的代码，不利于代码review
-git config pull.rebase true
-git pull origin dev
-git stash pop
-```
+- `git stash` — 暂时保存当前工作目录的未提交更改，使工作区恢复到上一次提交的状态
+- `git config pull.rebase true` — 区别于 merge，保持提交历史线性、整洁，多用于同步主分支代码（但会导致 commitId 混入他人代码，不利于 code review）
+- `git pull origin dev`
+- `git stash pop` — 恢复暂存的更改
 
-## 2、当前分支与远程分支太久没合并了，出现了大量冲突
+## 2、当前分支与远程分支太久没合并，出现大量冲突
 
-```bash
-git cherry-pick commitId
-git push --set-upstream origin dev-cmr
-git log | grep MingRen -A 1 -B 1
-git rebase --abort
-```
+- `git cherry-pick <commitId>` — 选取指定提交应用到当前分支
+- `git push --set-upstream origin dev-cmr`
+- `git log | grep MingRen -A 1 -B 1` — 过滤查看指定人的提交记录（`-A 1` — After，匹配行的后 1 行;`-B 1` — Before，匹配行的前 1 行）
+- `git rebase --abort` — 放弃 rebase 操作，回到原始状态
 
 ## 3、回退
 
-```bash
-# 查看提交记录
-git reflog
-# 将HEAD重置到某次提交
-git reset --hard HEAD{25}
-# 更新远程仓库
-git push --force-with-lease
-```
+- `git reflog` — 查看所有提交记录（包括已回退的）
+- `git reset --hard HEAD{25}` — 将 HEAD 重置到某次提交
+- `git push --force-with-lease` — 强制推送到远程仓库（比 `--force` 更安全）
 
-## 4、merge冲突
+## 4、merge 冲突
 
-```bash
-# 拉取远程分支
-git pull origin dev
-# 冲突，不想合并了，想回到pull之前
-git merge --abort
-```
+- `git pull origin dev` — 拉取远程分支
+- `git merge --abort` — 冲突后不想合并了，回到 pull 之前的状态
 
 ## 5、删除分支
 
-```bash
-git branch -D dev-cmr
-git push origin --delete dev-cmr
-git branch dev-cmr
-git checkout dev-cmr
-git push --set-upstream origin dev-cmr
-```
+- `git branch -D dev-cmr` — 强制删除本地分支
+- `git push origin --delete dev-cmr` — 删除远程分支
+- `git branch dev-cmr` — 重新创建本地分支
+- `git checkout dev-cmr` — 切换到该分支
+- `git push --set-upstream origin dev-cmr` — 推送并关联远程分支
 
-## 6、当上一次的commit还未push，如何回退
+## 6、上一次 commit 未 push，如何回退
 
-```bash
-git reset --soft HEAD~1
-```
+- `git reset --soft HEAD~1` — 撤销最近一次提交，保留修改内容到暂存区
 
 ## 7、worktree
 
-```bash
-# 列出所有 worktree
-git worktree list
+- `git worktree list` — 列出所有 worktree
+- `git worktree add <path> <branch>` — 添加 worktree
+- `git worktree remove <path>` — 删除 worktree
+- `git worktree prune` — 清理过期的 worktree 信息
 
-# 添加 worktree
-git worktree add <path> <branch>
+## 8、其他
 
-# 删除 worktree
-git worktree remove <path>
-
-# 清理过期的 worktree 信息
-git worktree prune
-```
-
-## 8、some instructions
-
-- gitk 命令还未生效： brew install git-gui
+- `gitk` 命令还未生效：`brew install git-gui`
 
 ## 合并 dev 分支代码到 dev-mingrenchen
 
-- git checkout dev-mingrenchen
-- git fetch origin dev
-- git merge origin/dev
-- 解决冲突：git add <file>
-- git commit
-- git push origin dev-mingrenchen
+- `git checkout dev-mingrenchen`
+- `git fetch origin dev`
+- `git merge origin/dev`
+- 解决冲突后：`git add <file>`
+- `git commit`
+- `git push origin dev-mingrenchen`
