@@ -24,6 +24,9 @@
 - ~~gauge图单位放到数字上~~
 - ~~panelCard 的title显示问题~~
 - ~~时间范围调整工具遮住了x轴，图列hide的时候，不用显示配置位置和宽度，图例值的配置~~
+- ~~trend charts在dashboard抖动问题~~
+- ~~修改了基础库的属性（电流 - minimum/maximum）,元素浏览器中的元素属性没有同步修改，并且无法编辑~~
+- ~~tooltip销毁提示~~
 
 - panel的echart渲染，在拖动width、height时，触发更新的频率太快了，需要加上节流函数
 - 首次加载页面，有些 XHR 请求重复了,并且会请求大量js资源，导致性能卡顿

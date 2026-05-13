@@ -5,6 +5,7 @@
 - use idmp;
 - show stables;
 - show tables;
+- desc `vst_智能电表_784670`;
 
 ## 插入数据
 

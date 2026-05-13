@@ -27,3 +27,4 @@
 - `legacy` — 遗留的；旧版
 - `sticky` — 粘性的；固定的
 - `hue` — 色调；色相
+- `violations` - 违规行为
