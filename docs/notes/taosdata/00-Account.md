@@ -6,10 +6,6 @@
 
 ## 账号
 
-### 领英
-
-- LinkedIn：18916193125@163.com
-
 ### 邮箱
 
 - mingrenchen@taosdata.com
@@ -45,6 +41,14 @@
 - https://telegraf.tdengine.net
 - boxiaobj@gmail.com / tbase125!
 
-### grafana
+- http://localhost:6038
+- admin / Tbase125!
 
+### grafana
+- https://mingrenchen.grafana.net
 - mingrenchen@grafana.net
+
+### jira
+
+- https://jira.taosdata.com:18090
+- chenmingren/luowaC912!

@@ -47,3 +47,11 @@ locale: 'en-US',
   - TDasset/tda-server/data
 
 - `mvn clean` 执行这个命令，然后运行，让`idea`自己去编译
+
+- h2有maven依赖，需要先执行：`mvn clean package -DskipTests`
+
+- 在worktree里面运行main分支
+  > git-commit-id-plugin:4.9.10 对 worktree 的支持有问题，它可能无法正确解析这个间接引用去找到真正的 HEAD
+  - mvn clean package -Dmaven.gitcommitid.skip=true -DskipTests
+
+- mvn clean install -DskipTests -Predis
