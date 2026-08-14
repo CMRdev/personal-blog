@@ -17,11 +17,14 @@ insert into `idmp_sample_utility`.`em-1` (ts,`current`,`voltage`) values (now, 1
 
 ## 查询
 
-- 现在查询 tag 信息和值的方式总共有三种：
-  - show tags from 子表名
-  - select \* from information_schema.ins_tags where
-  - SELECT TAGS
-- 在数据库中子表数量较大的时候（百万级）前两种方式的性能会变得非常差
+```sql
+
+select _c0, `电压` from `idmp`.`vt_em-1_azfmnf` where _c0 >= '2026-07-08';
+
+-- "windowStart":1783493511326,"windowEnd":1783496511326
+select cast(1783493511326 as timestamp) as winStart, cast(1783496511326 as timestamp) as winEnd;
+select _c0, `电压` from `idmp`.`vt_em-1_azfmnf` where _c0 >= 1783493511326 and _c0 <= 1783496511326;
+```
 
 ## 运行 tsdb
 

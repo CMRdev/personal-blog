@@ -1,6 +1,9 @@
-# AI
+## Claude Code
 
-## 一、Claude Code
+- 用于自动化的钩子机制
+- 通过CLAUDE.md文件实现的记忆能力
+- 基于检查点的回溯机制
+- 用于构建可复用、边界清晰工作流的自定义斜杠命令（技能）
 
 ### 0. claudeCode配置
 
@@ -54,11 +57,3 @@
 | /export                | 将当前整段对话导出为 Markdown 文件                                        |
 
 **新功能：** agent-team
-
----
-
-## 二、 Skills
-
-- code-simplifier
-- skill-creator
-- supperpowers
