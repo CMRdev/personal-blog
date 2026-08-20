@@ -7,15 +7,15 @@
 ```js
 TEST_LANGUAGE=zh
 LOGIN_USERNAME=mingrenchen@taosdata.com
-LOGIN_PASSWORD=tbase125!
+LOGIN_PASSWORD=Tbase125!
 ```
 
 - playwright.config.ts
 
 ```js
 // 设置浏览器语言为英语
-locale: 'en-US',
-//locale: 'zh-CN', // 设置为中文
+// locale: 'en-US',
+locale: 'zh-CN', // 设置为中文
 ```
 
 ## 2. backend

@@ -1,9 +1,5 @@
 # 账号密码
 
-## 所有密码
-
-- #Cmr2030405
-
 ## 账号
 
 ### 邮箱
@@ -20,7 +16,7 @@
 
 - https://192.168.15.4
 - https://git.tdengine.net/taosdata/agent-skills-internal
-- `mingrenchen / #Cmr2030405`
+- 账号：mingrenchen
 
 ### TSDB
 
