@@ -56,3 +56,15 @@
 - 解决冲突后：`git add <file>`
 - `git commit`
 - `git push origin dev-mingrenchen`
+
+## 将当前分支main-cmr和main分支对齐
+
+- 场景：提交main-cmr的mr时发现当前分支上有之前提交的内容A（这个内容已经通过dev分支合并到main分支了），这个时候没必要再次将A提交一次
+
+```bash
+git pull origin main
+git reset --hard origin/main
+git push --force-with-lease
+git cherry-pick commitID
+git push
+```

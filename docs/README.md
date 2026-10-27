@@ -12,6 +12,7 @@
 - [TCP-IP 协议](/notes/前端基础/TCP-IP协议.md)
 - [Js 模块加载](/notes/前端基础/Js模块加载.md)
 - [Js Event-Loop](/notes/前端基础/事件循环.md)
+- [css containing-block](/notes/前端基础/css-containing-block.md)
 
 ### 🌏 Cesium 相关
 
@@ -61,6 +62,7 @@
 - [linux 常用命令（二）](/notes/Linux命令/linux常用命令（二）.md)
 - [Linux 常用命令（三）](/notes/Linux命令/Linux常用命令（三）.md)
 - [使用 Jenkins 进行 CI&CD](/notes/Linux命令/使用Jenkins进行CI&CD.md)
+- [查看端口号占用情况](/notes/Linux命令/查看端口号占用情况.md)
 
 ### 🍟Docker 命令
 
@@ -76,6 +78,41 @@
 ### 🍟 Python
 
 - [python 知识点](/notes/python/python.md)
+
+### ⚡ Electron
+
+- [导览](/notes/Electron/Part1.导览.md)
+- [初始化项目](/notes/Electron/Part2.init.md)
+- [knowledge](/notes/Electron/Part3.md)
+
+### 🤖 AI
+
+- [AI](/notes/AI/01-AI.md)
+- [Claude Code](/notes/AI/01-Claude.md)
+
+### 🏢 Company
+
+- [如何运行一个公司](/notes/Company/01-Index.md)
+- [development](/notes/Company/02-development.md)
+- [敏捷开发流程](/notes/Company/04-Agile.md)
+
+### 💼 taosdata
+
+- [工作重心](/notes/taosdata/0000.md)
+- [AI 提效方案](/notes/taosdata/01-AI提效方案.md)
+- [Skills](/notes/taosdata/01-Skills.md)
+- [IDMP](/notes/taosdata/02-IDMP.md)
+- [TSDB 操作](/notes/taosdata/02-TSDB.md)
+- [Git 常用操作](/notes/taosdata/03-Git.md)
+- [在 gitlab 和 github 同时开发](/notes/taosdata/03-Git-gitlab+github.md)
+- [docker](/notes/taosdata/03-Docker.md)
+- [工具安装与配置](/notes/taosdata/03-Tools.md)
+- [mac 上的快捷键+命令](/notes/taosdata/03-Shortcut.md)
+- [vue3](/notes/taosdata/04-Vue.md)
+- [English](/notes/taosdata/04-English.md)
+- [notes](/notes/taosdata/04-Notes.md)
+- [待办事项](/notes/taosdata/05-TODO.md)
+- [This Week](/notes/taosdata/05-ThisWeek.md)
 
 ### 🥨 TypeScript
 
@@ -130,6 +167,7 @@
 - [xshell 中文件传输](/notes/其他/xshell中文件传输.md)
 - [使用 webrtc-streamer 解析 rtsp 视频流](/notes/其他/使用webrtc-streamer解析rtsp视频流.md)
 - [Java 录制 rtsp 视频流](/notes/其他/Java录制rtsp视频流.md)
+- [SSH 连接到远程机器](/notes/其他/SSH连接到远程机器.md)
 <!-- - [TCP](/notes/其他/TCP.xmind) -->
 
 ### 🍳 杂记
@@ -137,3 +175,8 @@
 - [英语单词](/notes/杂记/part1.EnglishWords.md)
 - [杂记一](/notes/杂记/part2.杂记一.md)
 - [高清地图](/notes/杂记/part3.高清地图.md)
+- [欧洲建筑风格](/notes/杂记/part5.欧洲建筑风格.md)
+- [哑巴的一生](/notes/杂记/part6.哑巴的一生.md)
+- [QQ 记录](/notes/杂记/part99.qq_records.md)
+- [QQ 记录 2](/notes/杂记/part99.qq_records2.md)
+- [QQ 记录 3](/notes/杂记/part99.qq_records3.md)

@@ -1,0 +1,2 @@
+- [AI](/notes/AI/01-AI.md)
+- [Claude Code](/notes/AI/01-Claude.md)

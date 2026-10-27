@@ -29,3 +29,12 @@
 - [🎂 其他](/notes/其他/SCP文件传输.md)
 
 - [🍳 杂记](/notes/杂记/part1.EnglishWords.md)
+
+- [🤖 AI](/notes/AI/01-AI.md)
+
+- [⚡ Electron](/notes/Electron/Part1.导览.md)
+
+- [🏢 Company](/notes/Company/01-Index.md)
+
+- [💼 taosdata](/notes/taosdata/0000.md)
+
