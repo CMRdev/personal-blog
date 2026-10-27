@@ -1,6 +1,6 @@
 # 在 gitlab 和 github 同时开发
 
-1. 配置自己的 `ssh public key` 到 `gitlab https://git.tdengine.net/rd-public/idmp`。
+1. 配置自己的 `ssh public key` 到 `gitlab https://git.tdengine.net/rd-app/idmp`。
 
 2. 在 gitlab idmp创建自己的分支 main-xx 和 dev-xx，并推送到远程。
 
@@ -9,7 +9,7 @@
 ```bash
 cd TDasset
 # 添加 GitLab 为新的远程仓库，别名为 "gitlab"
-git remote add gitlab git@git.tdengine.net:rd-public/idmp.git
+git remote add gitlab git@git.tdengine.net:rd-app/idmp.git
 # 从 GitHub（origin）拉取所有分支信息
 git fetch origin
 # 从 GitLab（gitlab）拉取所有分支信息
