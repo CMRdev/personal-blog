@@ -32,8 +32,9 @@
 - https://idmp.tdengine.com/
 - ybshi@taosdata.com / tbase125!
 
-- https://telegraf.tdengine.net
+- https://telemetry.tdengine.net
 - boxiaobj@gmail.com / tbase125!
+- ypzhang@taosdata.com / Hello@456
 
 - H2: http://localhost:6038
 - admin / Tbase125!
